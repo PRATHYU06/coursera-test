@@ -1,0 +1,85 @@
+<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		h1 {
+			font-size: 175%;
+			font-family: Helvetica;
+			text-align: center;
+		}
+
+	    p {
+            font-family: Helvetica;
+            font-size: 175%;
+            width: 100px;
+            margin: 0px;
+            text-align: right;
+			float: right;
+			text-align: center;
+	    }
+
+	    section {
+	    	font-family: Helvetica;
+	    	font-size: 125%;
+            clear: both;
+	    }
+
+	    div {
+	    	position: relative;
+	    }
+
+	    #p1 {
+	    	background-color: aqua;
+	    }
+	    #p2 {
+	    	background-color: red;
+	    }
+	    #p3 {
+	    	background-color: gray;
+	    }
+
+	    @media (min-width: 1200px) 
+{
+	.col-lg-4 {
+		background-color: pink;
+		border: 1px solid black;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+	}
+	.col-lg-4 {
+		width: 32%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.col-md-6,.col-md-12{
+        background-color: pink;
+		border: 1px solid black;
+		margin-left: auto;
+		margin-right: auto;
+		float: left;
+	}
+	.col-md-6 {
+		width: 49%;
+	}
+	.col-md-12 {
+		width: 98.77%
+	}
+}
+
+@media (max-width: 991px) 
+{
+	.col-xs-12{
+		background-color: pink;
+		border: 1px solid black;
+		margin-right: auto;
+		margin-left: auto;
+		float: left;
+	}
+	.col-xs-12 {
+		width: 98.77%
+	}
+}
+</style>
